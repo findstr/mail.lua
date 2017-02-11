@@ -1,0 +1,5 @@
+daemon = 0
+bootstrap = "./testsmtp.lua"
+lualib_path = "./?.lua;./silly/lualib/?.lua"
+lualib_cpath = "./silly/luaclib/?.so"
+

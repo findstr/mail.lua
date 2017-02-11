@@ -1,0 +1,4 @@
+[submodule "silly"]
+	path = silly
+	url = git@github.com:findstr/silly
+	branch = dev
