@@ -6,10 +6,16 @@ a smtp protocol implement based on lua
 smtp只提供了一个send函数，send函数只接收一个table类型的参数msg
 
 msg["FROM"] 用于指定发送方邮件地址
+
 msg["PASSWD"] 用于指定发送方邮件密码
+
 msg["TO"] 用于指定收件人地址
+
 msg["SUBJECT"] 用于指定邮件主题
+
 msg["CONTENT"] 用于指定邮件内容
+
+    smtp.send(msg) 即可发送邮件
 
 ## 运行
 
