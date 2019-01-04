@@ -82,6 +82,7 @@ local function rfc3501(self, cmd, ...)
 		end
 		ret[#ret + 1] = fields
 		if fields[1] == id then
+			assert(fields[2] == "OK", cmd)
 			break
 		end
 	end
